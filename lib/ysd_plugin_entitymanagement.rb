@@ -1,0 +1,2 @@
+require 'ysd_plugin_entitymanagement_extension'
+require 'ysd_plugin_entitymanagement_init'
