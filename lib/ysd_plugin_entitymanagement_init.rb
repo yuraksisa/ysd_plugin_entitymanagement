@@ -8,6 +8,7 @@ Plugins::SinatraAppPlugin.register :entitymanagment do
    description= 'Integrate the entitymanagement framework'
    version=     '0.1'
    hooker            Huasi::EntityManagementExtension
-   sinatra_extension Sinatra::YSD::EntityManagement  # Serves static resources
+   sinatra_extension Sinatra::YSD::EntityManagement       # Serves static resources
+   sinatra_helper    Sinatra::YSD::EntityManagementHelper # Helper
    
 end
